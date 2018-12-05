@@ -1,6 +1,6 @@
 # LU Factorization
 
-the function luFactor performs LU decomposition on a system of equations and produces a lower trianglular matrix, an upper triangular matrix, and a pivot matrix
+The function luFactor performs LU decomposition on a system of equations and produces a lower trianglular matrix, an upper triangular matrix, and a pivot matrix
 
 **** CALL FUNCTION USING FORMAT [L,U,P] = luFactor(A) ****
 
