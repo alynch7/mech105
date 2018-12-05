@@ -3,8 +3,11 @@
 This function carries out Simpson's 1/3 composite rule for integration.
  
 Inputs
-   *X - vector given by user
-   *Y - vector given byuser
+
+   X - vector given by user
+   
+   Y - vector given by user
     
 Outputs
-   *I - Estimated Integral
+
+   I - Estimated Integral
