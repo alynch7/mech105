@@ -5,6 +5,7 @@
  These functions are
  
  1. False Position
- 2. LU Factorization
- 3. Simpson Method
- 4. Heun's Method
+ 2. Heun's Method
+ 3. LU Factorization
+ 4. Simpson Method
+ 
