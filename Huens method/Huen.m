@@ -1,5 +1,7 @@
 function [t,y] = Heun(dydt,tspan,y0,h,es,maxit)
 
+% This function evaluates numerical functions using predictor and corrector
+% equations from Heun's method
 %   INPUT
 %       dydt - Differential equation of interest
 %       tspan - the length of the input span
@@ -10,8 +12,6 @@ function [t,y] = Heun(dydt,tspan,y0,h,es,maxit)
 %   OUTPUT
 %       t - t values of the function
 %       y - value of the function at t
-
-% Alexander Lynch
 
 if nargin < 4 % function needs to have 4 inputs
     error('Must have 4 inputs')
